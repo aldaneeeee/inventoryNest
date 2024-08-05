@@ -6,7 +6,7 @@ import { Search as SearchIcon } from "@mui/icons-material";
 import { collection, query, setDoc, getDocs, doc, getDoc, deleteDoc } from "firebase/firestore";
 import { alpha, styled } from '@mui/material/styles';
 
-// SEARCHBAR STYLE
+
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
   borderRadius: theme.shape.borderRadius,
