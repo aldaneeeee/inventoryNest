@@ -1,6 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { firestore } from "@/firebase";
+import { firestore } from "@/inventory Nest/firebase";
 import { AppBar, Toolbar, Typography, Box, Modal, Stack, TextField, Button, InputBase, MenuItem, Select, FormControl, InputLabel } from "@mui/material";
 import { Search as SearchIcon } from "@mui/icons-material";
 import { collection, query, setDoc, getDocs, doc, getDoc, deleteDoc } from "firebase/firestore";
